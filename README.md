@@ -6,7 +6,7 @@ This exercise demonstrates pulling data from a back end database to restock item
 ## How To Run
 This exercise can be run by forking the repository and cloning it to your machine. If you don't have npm installed, you can get it by installing [node.js](https://nodejs.org/en/download/). Run 'npx http-server' from the command line to run a temporary http-server or install http-server as a global command by running 'npm install --global http-server' (https://www.npmjs.com/package/http-server). Run 'http-server' to start a server. Run 'http-server -c-1' to prevent the browser from caching if you want to make changes. You can then access the page by going to localhost:8080 in your web browser.
 
-In order to use the restocking functionality, you’ll need to install [Strapi](https://strapi.io/documentation/developer-docs/latest/getting-started/quick-start.html#_1-install-strapi-and-create-a-new-project). Create a database name “products” with four fields – name (text), country (text), cost (number), and instock (number). The default URL “http://localhost:1337/products” can be used to restock the products list.
+In order to use the restocking functionality, you’ll need to install [Strapi](https://strapi.io/documentation/developer-docs/latest/getting-started/quick-start.html#_1-install-strapi-and-create-a-new-project). Create a database named “products” with four fields – name (text), country (text), cost (number), and instock (number). The default URL “http://localhost:1337/products” can be used to restock the products list.
 
 ## Future Improvements
 Restocking by adding to the quantities of items that are already in the products list instead of adding new rows for like products.
