@@ -136,7 +136,7 @@ const Products = (props) => {
   // Move Items To Cart
   const addToCart = (e) => {
     let name = e.target.name;
-    let item = items.filter((item) => item.itemID === name)[0];
+    let item = items.filter((item) => item.itemID === Number(name))[0];
     item = {...item, cartItemID};
     cartItemID++;
     if (item.instock > 0) {
